@@ -6,7 +6,8 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/apple/swift-log"
   spec.license      = { :type => "Apache-2.0", :file => "LICENSE" }
   spec.author       = { "Muhammad Hassan" => "info.hassan31@gmail.com" }
-  s.source          = { :git => "https://github.com/hassan31/swift-log.git", :tag => "#{s.version}" }
+  # spec.source     = { :git => "https://github.com/hassan31/swift-log.git", :tag => "#{s.version}" }
+  spec.source       = { :git => "https://github.com/hassan31/swift-log.git", :branch => "logger-cocoapod" }
 
   spec.ios.deployment_target = "11.0"
   spec.osx.deployment_target = "10.15"
