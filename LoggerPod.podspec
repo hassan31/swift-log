@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
   spec.name         = "LoggerPod"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "A Swift logging API package."
   spec.description  = "A package that provides a flexible and extensible logging system for Swift applications."
   spec.homepage     = "https://github.com/apple/swift-log"
   spec.license      = { :type => "Apache-2.0", :file => "LICENSE" }
   spec.author       = { "Muhammad Hassan" => "info.hassan31@gmail.com" }
-  spec.source       = { :git => "https://github.com/hassan31/swift-log.git", :tag => "#{s.version}" }
+  spec.source       = { :git => "https://github.com/hassan31/swift-log.git", :tag => "#{spec.version}" }
 
   spec.ios.deployment_target = "13.0"
   spec.osx.deployment_target = "10.15"
